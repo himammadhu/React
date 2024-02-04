@@ -1,0 +1,123 @@
+.container {
+    max-width: 100%;
+    max-height: 100%;
+    
+
+
+    .Image {
+        background-image: url('https://img.freepik.com/free-photo/city_1127-2867.jpg?w=996&t=st=1706862676~exp=1706863276~hmac=8e1160026f2967f036db4e3eaf8889f80729cb6c3bd13be7a4b329f4eddc5c39');
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        border-radius: 10px;
+        overflow:auto;
+        
+        
+
+        img {
+            width: 10vw;
+            height: 100vh;
+            border-radius: 15px;
+            backdrop-filter: blur(100px);
+            z-index: 1;
+            
+            
+        }
+    }
+
+
+
+    .Text {
+
+        font-weight: bold;
+        font-size: 40px;
+        margin-left: 10%;
+        padding-top: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        gap: 100px;
+
+
+    }
+    .toggle{
+        padding-left: 100px;
+
+        p{
+            font-size: 15px;
+        }
+    }
+
+    .Text2 {
+        margin-left: 10%;
+        padding-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+
+
+    }
+
+    .textfield {
+        margin-left: 10%;
+        padding-top: 70px;
+        display: flex;
+        width: 700px;
+        gap: 60px;
+
+
+
+    }
+
+    .textfield2 {
+        margin-left: 10%;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        width: 600px;
+
+    }
+
+
+
+    .T {
+        padding-top: 10px;
+        margin-left: 10%;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 10px;
+
+        span {
+            padding-top: 2px;
+        }
+
+
+    }
+
+    .buttons {
+        position: relative;
+        padding-top: 10px;
+
+        .btn {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(20, 20, 116);
+            width: 600px;
+            height: 35px;
+            border-radius: 5px;
+            cursor: pointer;
+        
+
+            margin-left: 10%;
+            font-weight: 400;
+            color: white;
+
+        }
+
+    }
+
+    .tables {
+        padding-top: 20px;
+        max-width: 80%;
+        margin-left: 10%;
+        padding-bottom: 50px;
+
+
+    }
+}
